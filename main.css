@@ -1,0 +1,104 @@
+body {
+    background-color:#aad4cf; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1024px;
+background-color: #d1e2e0;
+margin: 0 auto;
+}
+
+/* stylizing headers */
+ h1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 180px;
+    left: 780px;
+    z-index:9;
+
+ }
+
+ h2 {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    top: 380px;
+    left: 460px;
+
+ }
+
+
+ h4 {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    left: 450px;
+    top: 800px;
+ }
+
+/*stylizing footer*/  
+ footer {
+    color: black;
+    text-align: left;
+    position: absolute;
+    font-size: 10px;
+    left: 1350px;
+    top: 900px;
+ }
+
+ 
+/* navigation bar*/
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid black;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 140px;
+    text-decoration: none;
+  }
+
+
+  /* paragraph tag*/ 
+
+  p {
+    
+font-size: 15px;
+line-height:120%;
+padding-right: 100px;
+position: relative;
+top: 0px;
+left: 20px;
+  }
+
+  /* the second photo*/
+  
+  .two {
+    width: 200px;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 10px;
+  }
+
+  
